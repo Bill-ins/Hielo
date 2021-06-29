@@ -1,0 +1,592 @@
+body * {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:  whitesmoke;
+}
+
+/* ********************************************** Default Desktop Width ********************************************** */
+
+/* Website Header Starts Here */
+#header {
+    padding: 0;
+    color: white;
+}
+
+#header .customNav {
+    width: 100%;
+    background: none;
+    border: none;
+    position: absolute;
+    z-index: 1;
+}
+
+#header .customNav a {
+    color: white;
+}
+
+#header .customNav .navbar-header {
+    float: none;
+}
+
+#header .customNav .navbar-brand {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#header .customNav .navbar-brand .highlight {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#header .customNav .navbar-toggle {
+    display: block;
+    border: none;
+}
+
+#header .customNav .navbar-toggle:hover {
+    background: none;
+    cursor: pointer;
+}
+
+#header .customNav .navbar-toggle .left {
+    font-size: 18px;
+}
+
+#header .customNav .navbar-toggle .right {
+    font-size: 15px;
+    position: relative;
+    top: -2px;
+    margin-left: 10px;
+}
+
+#header .customNav .myNavMenu li a {
+    font-size: 15px;
+}
+
+#header .customNav .myNavMenu li a:hover {
+    font-size: 17px;
+}
+
+#header .customNav .myNavMenu li a:active {
+    font-weight: 600;
+}
+
+#header .customNav .myNavMenu .current a {
+    background: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#header .customNav .myNavMenu .current a:hover {
+    cursor: default;
+}
+
+#header .customCarousel .item {
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header .customCarousel .myItem1 {
+    background-image: url(../../img/slide01.jpg);
+}
+
+#header .customCarousel .myItem2 {
+    background-image: url(../../img/slide02.jpg);
+}
+
+#header .customCarousel .myItem3 {
+    background-image: url(../../img/slide03.jpg);
+}
+
+#header .customCarousel .myItem4 {
+    background-image: url(../../img/slide04.jpg);
+}
+
+#header .customCarousel .myItem5 {
+    background-image: url(../../img/slide05.jpg);
+}
+
+#header .bannerContainer {
+    width: 100%;
+    position: absolute;
+    top: 250px;
+}
+
+#header .banner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#header .banner p {
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 5px;
+    color: lightgray;
+}
+
+#header .banner p .highlight {
+    font-weight: 400;
+    color: white;
+}
+
+#header .banner hr {
+    border: 0;
+    width: 30%;
+    height: 1px;
+    background-color: lightgray;
+    margin: 30px auto;
+}
+
+#header .banner h1 {
+    font-weight: 300;
+    font-size: 100px;
+    position: relative;
+    top: -30px;
+}
+/* Website Header Ends Here */
+
+/* ................................................................................................................. */
+
+/* Website Body Starts Here */
+/* Section One. Two Images Starts Here */
+#section1 {
+    margin-top: 100px;
+}
+
+#section1 img {
+    width: 100%;
+}
+
+#section1 .left {
+    margin-right: 5%;
+}
+
+#section1 .right {
+    margin-left: 5%;
+}
+
+#section1 .box {
+    background-color: white;
+    color: gray;
+    padding-bottom: 40px;
+}
+
+#section1 .box .text {
+    margin: 40px 40px 0;
+}
+
+#section1 .box .text .smallText {
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+#section1 .box .text hr {
+    border: 0;
+    width: 50%;
+    height: 0.5px;
+    background-color: lightgray;
+    margin: 10px auto 0 auto;
+}
+
+#section1 .box .text h3 {
+    font-weight: 300;
+    font-size: 29px;
+    color: black;
+    margin-top: 5px;
+}
+
+#section1 .box .text .para {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 23px;
+    text-align: left;
+}
+
+#section1 .box .text button {
+    background: none;
+    border: 2px solid lightgray;
+    font-size: 15px;
+    width: 130px;
+    height: 40px;
+    margin-top: 30px;
+}
+/* Section One. Two Images Ends Here */
+
+/* Section Two Starts Here */
+#section2 {
+    margin-top: 100px;
+    width: 100%;
+    padding: 80px 0;
+    background-image: url(../../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+#section2 p {
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: lightgray;
+}
+
+#section2 hr {
+    border: 0;
+    width: 50%;
+    height: 0.5px;
+    background-color: lightgray;
+    margin: 15px auto;
+}
+
+#section2 h3 {
+    font-weight: 300;
+    font-size: 29px;
+}
+/* Section Two Ends Here */
+
+/* Section Three. Four Images Starts Here */
+#section3 {
+    margin-top: 100px;
+}
+
+#section3 img {
+    width: 100%;
+}
+
+#section3 .txtbox p {
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: gray;
+}
+
+#section3 .txtbox hr {
+    border: 0;
+    width: 50%;
+    height: 1px;
+    background-color: lightgray;
+    margin: 15px auto;
+}
+
+#section3 .txtbox h3 {
+    font-weight: 300;
+    font-size: 29px;
+}
+
+#section3 .imgbox {
+    background-color: white;
+    padding: 3%;
+}
+
+#section3 .left {
+    margin-right: 2%;
+}
+
+#section3 .right {
+    margin-left: 2%;
+}
+
+#section3 .imgRow {
+    margin-top: 50px;
+}
+/* Section Three. Four Images Ends Here */
+/* Website Body Ends Here */
+
+/* ................................................................................................................. */
+
+/* Website Footer Starts Here */
+#footer {
+    margin-top: 100px;
+    background-color: black;
+    color: gray;
+    padding: 50px 0;
+}
+
+#footer a {
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+}
+
+#footer .marginAdjust {
+    margin-left: 12px;
+} 
+
+#footer .row2 {
+    margin-top: 25px;
+    font-size: 13px;
+}
+/* Website Footer Ends Here */
+
+
+
+
+/* ********************************************** Media Queries ********************************************** */
+
+
+/* Media Queries For Tablet Devices */
+@media only screen and (max-width: 1100px) {
+    /* Website Header Starts Here #_Tablet_Devices */
+    #header .bannerContainer p {
+        font-size: 13px;
+        letter-spacing: 4px;
+    }
+
+    #header .bannerContainer h1 {
+        font-size: 80px;
+        top: -20px;
+    }
+    /* Website Header Ends Here #_Tablet_Devices */
+
+    /* Website Body Starts Here #_Tablet_Devices */
+    /* Section One. Two Images Starts Here #_Tablet_Devices */
+    #section1 .left {
+        margin-right: 3%;
+    }
+
+    #section1 .right {
+        margin-left: 3%;
+    }
+
+    #section1 .colBox {
+        padding: 0;
+    }
+
+    #section1 .box .text .smallText {
+        font-size: 11px;
+        letter-spacing: 3px;
+    }
+    
+    #section1 .box .text hr {
+        height: 1px;
+    }
+    
+    #section1 .box .text h3 {
+        font-size: 27px;
+    }
+    
+    #section1 .box .text .para {
+        font-size: 14px;
+    }
+    
+    #section1 .box .text button {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    /* Section One. Two Images Ends Here #_Tablet_Devices */
+
+    /* Section Two Starts Here #_Tablet_Devices */
+    #section2 {
+        margin-top: 80px;
+    }
+    
+    #section2 p {
+        font-size: 11px;
+        letter-spacing: 3px;
+    }
+    
+    #section2 hr {
+        height: 1px;
+    }
+    
+    #section2 h3 {
+        font-size: 27px;
+    }
+    /* Section Two Ends Here #_Tablet_Devices */
+
+    /* Section Three. Four Images Starts Here #_Tablet_Devices */
+    #section3 {
+        margin-top: 80px;
+    }
+    
+    #section3 .txtbox p {
+        font-size: 11px;
+        letter-spacing: 3px;
+    }
+    
+    #section3 .txtbox h3 {
+        font-size: 27px;
+    }
+    
+    #section3 .imgbox {
+        padding: 2%;
+    }
+    
+    #section3 .colBox {
+        padding: 0;
+    }
+
+    #section3 .left {
+        margin-right: 2%;
+    }
+    
+    #section3 .right {
+        margin-left: 2%;
+    }
+    
+    #section3 .imgRow {
+        margin-top: 30px;
+    }
+    /* Section Three. Four Images Ends Here #_Tablet_Devices */
+    /* Website Body Ends Here #_Tablet_Devices */
+
+    /* Website Footer Starts Here #_Tablet_Devices */
+    #footer {
+        margin-top: 80px;
+    }
+    
+    #footer a {
+        font-size: 35px;
+    }
+    
+    #footer .marginAdjust {
+        margin-left: 50px;
+    } 
+    
+    #footer .row2 {
+        margin-top: 25px;
+        font-size: 11px;
+    }
+    /* Website Footer Ends Here #_Tablet_Devices */
+}
+
+
+
+/* Media Queries For Mobile Devices */
+@media only screen and (max-width: 760px) {
+    /* Website Header Starts Here #_Mobile_Devices */
+    #header .bannerContainer p {
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+
+    #header .bannerContainer hr {
+        width: 50%;
+        margin: 20px auto;
+    }
+
+    #header .bannerContainer h1 {
+        font-size: 60px;
+    }
+
+    #header .customNav .myNavMenu ul {
+        margin-left: 10px;
+        margin-right: 10px;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+    /* Website Header Ends Here #_Mobile_Devices */
+
+    /* Website Body Starts Here #_Mobile_Devices */
+    /* Section One. Two Images Starts Here #_Mobile_Devices */
+    #section1 {
+        margin-top: 60px;
+    }
+    
+    #section1 .marginTp {
+        margin-top: 50px;
+    }
+
+    #section1 .box {
+        max-width: 355px;
+        margin: 0 auto;
+        background-color: white;
+        color: gray;
+        padding-bottom: 40px;
+    }
+    
+    #section1 .box .text {
+        margin: 40px 40px 0;
+    }
+    
+    #section1 .box .text .smallText {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    
+    #section1 .box .text h3 {
+        font-size: 25px;
+    }
+    
+    #section1 .box .text .para {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    
+    #section1 .box .text button {
+        font-size: 13px;
+        width: 100%;
+    }
+    /* Section One. Two Images Ends Here #_Mobile_Devices */
+
+    /* Section Two Starts Here #_Mobile_Devices */
+    #section2 {
+        margin-top: 60px;
+        padding: 60px 0;
+    }
+    
+    #section2 p {
+        font-size: 10px;
+        letter-spacing: 3px;
+        line-height: 27px;
+    }
+    
+    #section2 h3 {
+        font-size: 25px;
+    }
+    /* Section Two Ends Here #_Mobile_Devices */
+
+    /* Section Three. Four Images Starts Here #_Mobile_Devices */
+    #section3 {
+        margin-top: 60px;
+    }
+    
+    #section3 .txtbox p {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    
+    #section3 .txtbox h3 {
+        font-size: 25px;
+    }
+    
+    #section3 .imgbox {
+        padding: 6px;
+        max-width: 355px;
+        margin: 0 auto;
+    }
+    
+    #section3 .imgRow {
+        margin-top: 30px;
+    }
+
+    #section3 .right {
+        margin-top: 30px;
+    }
+    /* Section Three. Four Images Ends Here #_Mobile_Devices */
+    /* Website Body Ends Here #_Mobile_Devices */
+
+    /* Website Footer Starts Here #_Mobile_Devices */
+    #footer a {
+        display: block;
+    }
+    
+    #footer .marginAdjust {
+        margin: 30px 0 0 0;
+    } 
+    
+    #footer .row2 {
+        margin-top: 35px;
+        font-size: 10px;
+    }
+    /* Website Footer Ends Here #_Mobile_Devices */
+}
+
+
